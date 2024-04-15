@@ -14,36 +14,37 @@
     let rand = Math.random()
     let first , second , third;
     //Let first word
-    if(rand=>.33){
+    if(rand<0.33){
       first="Crazy"
     }
-    else if(rand=<.66 && =>.33){
+    else if(rand<0.66 && =>.33){
       first="Amazing"
     }
-      else(rand=>.26){
+      else{
        first= "Fire"
       }
   //Let second word
-      if(rand=>.33){
+     let rand= Math.random()
+		if(rand<0.33){
       second=  "Engine"
       }
-        else if(rand<=.66 && =>.33){
+        else if(rand<0.66 && =>0.33){
          second= "Foods"
         }
-          else(rand=>.26){
+          else{
            second= "Garments"
           }
-      //Let third word
-      if(rand=>.33){
-        third="Bros"
+      //Let third number               
+     let rand=Math.random()           
+     if(rand<0.33){  third="Bros"
       }
-        else if(rand<=.66 && =>.33){
+        else if(rand<0.66 && =>0.33){
          third="Limited"
         }
-        else(rand=>.26){
+        else{
           third="Hub"
         }
-    ></script>
+    </script>
     console.log(`${first}, ${second} , ${third}`)
   </body>
 </html>
